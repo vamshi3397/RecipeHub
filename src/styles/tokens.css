@@ -1,0 +1,35 @@
+:root {
+  /* Colors */
+  --color-primary: #635bff;
+  --color-primary-hover: #5145e5;
+  --color-background: #f8f9fc;
+  --color-surface: #ffffff;
+  --color-text-primary: #171923;
+  --color-text-secondary: #667085;
+  --color-border: #e5e7eb;
+
+  /* Typography */
+  --font-family-base: Inter, system-ui, sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* Shape and elevation */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadow-card: 0 2px 8px rgb(16 24 40 / 6%);
+
+  /* Layout */
+  --header-height: 64px;
+  --sidebar-width: 260px;
+  --content-max-width: 1440px;
+}
