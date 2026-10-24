@@ -9,8 +9,7 @@ export const Home = () => {
       <Stack sx={{
         display: 'flex',
         flexDirection: 'row',
-        width: '100%',
-        overflow: 'scroll'
+        width: '100%'
       }}>
         <Header />
         <Content />

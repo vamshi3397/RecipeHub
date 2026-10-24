@@ -15,8 +15,8 @@ export const CardComponent = ({ src, name }: CardComponentProps) => {
       }}>
       <Box
         sx={{
-          height: "10rem",
-          width: "10rem",
+          height: "4rem",
+          width: "4rem",
           borderRadius: "0.5rem",
           overflow: "hidden",
         }}

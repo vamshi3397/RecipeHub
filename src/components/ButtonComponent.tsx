@@ -6,13 +6,14 @@ interface ButtonProps {
     variant: "text" | "outlined" | "contained";
     onClick: () => void;
 }
-export const ButtonComponent = ({ label, variant, onClick }: ButtonProps) => {
+export const ButtonComponent = ({ disabled, label, variant, onClick }: ButtonProps) => {
     return (<>
         <Stack>
             <Button
                 variant={variant}
                 onClick={onClick}
                 component="label"
+                disabled={disabled}
             >
                 {label}
             </Button>
